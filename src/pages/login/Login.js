@@ -46,7 +46,7 @@ export default function Login() {
         </div>
       </Popup>    
     </form>
-    <div className='credentials'>© Aleksandrs Valenieks. All rights reserved.</div>
+    <div className='credentials'>© Aleksandrs Valenieks</div>
   </div>
   )
 }

@@ -1,5 +1,6 @@
 
 .auth-form {
+    height: auto;
     max-width: 360px;
     margin: 10% auto;
     padding: 35px;
@@ -82,7 +83,7 @@
 
 }
 .modal-window {
-  margin-left: 62%;
+  float: right;
   border-radius: 50%;
   width: 2.1rem;
   height: 2.1rem;
@@ -97,11 +98,9 @@
 
 
 @media screen and (max-width: 600px) {
-  .modal-window {
-  margin-left: 56% ;
-  }
 
   .credentials {
+    display: block;
     font-size: 10px;
   }
 
